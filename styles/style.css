@@ -10,56 +10,46 @@
  body{
     padding: 0px;
     margin: 0px;
+    overflow-x: hidden;
  }
  /* banner-styles */
- .banner{
-    background-image: url(../assets/Hero-bg.png);
-    height: 692px;
-    max-width: 100%;
- }
- .banner-tittle{
+.banner{
+   background-image: url(../assets/Hero-bg.png);
+   height: 652px;
+}
+.banner-image{
+ margin-top: 24px;
+margin-left: 540px;
+margin-right: 539px;
 
-text-align: center;
-color: rgb(13, 19, 33);
+}
+.banner-tittle{
+   margin-left: 250px;
+   margin-right: 256px;
+ 
+   color: rgb(13, 19, 33);
 font-family: Azeret Mono;
-font-size: 16px;
+font-size: 30px;
 font-weight: 800;
-line-height: 40px;
+line-height: 68px;
 letter-spacing: 0%;
 text-align: center;
-height: 100px;
-margin-top: 50px;
- }
- .banner-description{
+}
+.banner-description{
    color: rgb(13, 19, 33);
-   font-family: Azeret Mono;
-   font-size: 12px;
-   font-weight: 400;
-   line-height: 26px;
-   letter-spacing: 0%;
-   text-align: center;opacity: 0.7;
-margin-bottom: 80px;
-
-margin-left: 100px;
-margin-right: 90px;
-
-
- }
- .banner-image{
-margin-top: 20px;
-margin-left: 235px;
-margin-right: 220px;
-height: 180px;
-width: 180px;
- }
- .banner-iteams{
-    
-    margin: 20px 120px;
-    height: 640px;
- }
- .banner-btn{
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+margin-left: 280px;
+margin-right: 282px;
+}
+.banner-btn{
    border-radius: 8px;
 background: rgb(13, 19, 33);
+margin: 35px 610px;
 color: rgb(255, 255, 255);
 font-family: Azeret Mono;
 font-size: 12px;
@@ -67,26 +57,15 @@ font-weight: 600;
 line-height: 23px;
 letter-spacing: 0%;
 text-align: center;
-margin-left: 260px;
-margin-left: 250px;
-padding: 10px 10px;
- }
- /* development-content-styles */
- .development-content{
+height: 50px;
+width: 150px;
+margin-left: 585px;
+}
+/* development-content-styles */
+.development-content{
    border-radius: 16px;
 background: rgba(13, 19, 33, 0.02);
-height: 700px;
-margin-top: 74px;
-margin-bottom: 85px;
-margin-left: 110px;
-margin-right: 110px;
- }
-.development-content-tittle{
-   color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 12px;
-font-weight: 800;
-line-height: 37px;
-letter-spacing: 0%;
-text-align: center;
+height: 1395px;
+margin: 80px 150px;
+ 
 }
