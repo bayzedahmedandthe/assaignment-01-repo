@@ -48,6 +48,7 @@ margin-right: 90px;
  .banner-image{
 margin-top: 20px;
 margin-left: 235px;
+margin-right: 220px;
 height: 180px;
 width: 180px;
  }
@@ -67,6 +68,7 @@ line-height: 23px;
 letter-spacing: 0%;
 text-align: center;
 margin-left: 260px;
+margin-left: 250px;
 padding: 10px 10px;
  }
  /* development-content-styles */
@@ -79,3 +81,12 @@ margin-bottom: 85px;
 margin-left: 110px;
 margin-right: 110px;
  }
+.development-content-tittle{
+   color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 12px;
+font-weight: 800;
+line-height: 37px;
+letter-spacing: 0%;
+text-align: center;
+}
