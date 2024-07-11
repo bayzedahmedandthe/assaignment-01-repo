@@ -277,7 +277,7 @@ display: flex;
 
 /* inspiration-styles */
 
-.inspiration{border: 2px solid;
+.inspiration{
    height: 700px;
    width: 1000px;
    margin-left: 160px;
@@ -313,7 +313,186 @@ display: flex;
    width: 800px;
 }
 
- 
+ /* target-styles */
+ .target{ 
+   height: 500px;
+   width: 900px;
+   margin-left: 210px;
+  
+ }
+ .textes{
+  margin-left: 60px;
+ }
+.target-tittle{
+   color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 26px;
+font-weight: 800;
+line-height: 37px;
+letter-spacing: 0%;
+text-align: center;
+}
+.current-description{
+   color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+}
+/* coulmns-styles */
+/* coulmn-01-styles */
+.coulmns{
+   display: flex;
+   gap: 20px;
+   margin-top: 80px;
+   margin-left: 30px;
+}
+.coulmn-01{
+   border-radius: 16px;
+background: rgba(255, 76, 30, 0.05);
+height: 290px;
+width: 250px;
+padding-left: 20px;
+}
+.coulmn-01-tittle{
+   color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 800;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+}
+.coulmn-01-description{
+   color: rgb(13, 19, 33);
+   font-family: Azeret Mono;
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 26px;
+   letter-spacing: 0%;
+   text-align: left;
+   margin-bottom: 40px; 
+   opacity: 0.7;
 
 
+}
+.coulmn-01-image{
+   margin-top: 20px;
+}
 
+.coulmn-01-link{
+   color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 12px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+text-decoration-line: underline;
+}
+/* coulmn-02-styles */
+.coulmn-02{
+   border-radius: 16px;
+background: rgba(0, 76, 232, 0.05);
+   height: 290px;
+   width: 250px;
+   padding-left: 20px;
+}
+.coulmn-02-tittle{
+   color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 800;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+}
+.coulmn-02-description{
+   color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 14px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 30px;
+opacity: 0.7;
+
+}
+
+.coulmn-02-btn{
+   color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 12px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+text-decoration-line: underline;
+}
+.coulmn-02-image{
+   margin-top: 20px;
+
+}
+.coulmn-02-link{
+   color: rgb(13, 19, 33);
+   font-family: Azeret Mono;
+   font-size: 12px;
+   font-weight: 700;
+   line-height: 19px;
+   letter-spacing: 0%;
+   text-align: left;
+   text-decoration-line: underline; 
+}
+/* coulmn-03-styles */
+.coulmn-03{   height: 290px;
+   width: 250px;
+   padding-left: 20px;
+   border-radius: 16px;
+   background: rgba(255, 223, 0, 0.05);
+}
+
+.coulmn-03-tittle{
+   color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 800;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+}
+.coulmn-03-description{
+   color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+opacity: 0.7;
+
+}
+.coulmn-03-btn{
+   color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 12px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+text-decoration-line: underline;
+
+}
+.coulmn-03-link{
+   color: rgb(13, 19, 33);
+   font-family: Azeret Mono;
+   font-size: 12px;
+   font-weight: 700;
+   line-height: 19px;
+   letter-spacing: 0%;
+   text-align: left;
+   text-decoration-line: underline; 
+}
