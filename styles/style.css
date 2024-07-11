@@ -1,71 +1,274 @@
  /* font-style */
 
- 
+
  .azeret-mono-normal {
-   font-family: "Azeret Mono", monospace;
-   font-optical-sizing: auto;
-   font-weight: <weight>;
-   font-style: normal;
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
  }
- body{
+
+ body {
     padding: 0px;
     margin: 0px;
     overflow-x: hidden;
  }
- /* banner-styles */
-.banner{
-   background-image: url(../assets/Hero-bg.png);
-   height: 652px;
-}
-.banner-image{
- margin-top: 24px;
-margin-left: 540px;
-margin-right: 539px;
 
-}
-.banner-tittle{
-   margin-left: 250px;
-   margin-right: 256px;
- 
-   color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 30px;
-font-weight: 800;
-line-height: 68px;
-letter-spacing: 0%;
-text-align: center;
-}
-.banner-description{
-   color: rgb(13, 19, 33);
+ /* banner-styles */
+ .banner {
+    background-image: url(../assets/Hero-bg.png);
+    height: 652px;
+ }
+
+ .banner-image {
+    margin-top: 24px;
+    margin-left: 540px;
+    margin-right: 539px;
+
+ }
+
+ .banner-tittle {
+    margin-left: 250px;
+    margin-right: 256px;
+
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 68px;
+    letter-spacing: 0%;
+    text-align: center;
+ }
+
+ .banner-description {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-left: 280px;
+    margin-right: 282px;
+ }
+
+ .banner-btn {
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    margin: 35px 610px;
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    height: 50px;
+    width: 150px;
+    margin-left: 585px;
+ }
+
+ /* development-content-styles */
+ .development-content {
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    height: 1495px;
+    margin: 50px 120px;
+
+ }
+
+ .development-content-tittle {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 26px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding-top: 80px;
+ }
+
+ .development-content-description {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    padding-left: 20px;
+    padding-right: 20px;
+ }
+ /* development-content-part-01-styles */
+
+ .development-content-part-01 {
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+    height: 336px;
+    width:850px;
+margin: 65px 40px;
+display: flex ;
+
+
+
+ }
+
+ .development-content-part-01-tittle{
+   color: rgba(13, 19, 33, 0.7);
 font-family: Azeret Mono;
 font-size: 16px;
-font-weight: 400;
+font-weight: 700;
 line-height: 26px;
 letter-spacing: 0%;
-text-align: center;
-margin-left: 280px;
-margin-right: 282px;
+text-align: left;
+margin-right: 150px;
+margin-top: 30px;
+
+
 }
-.banner-btn{
-   border-radius: 8px;
-background: rgb(13, 19, 33);
-margin: 35px 610px;
-color: rgb(255, 255, 255);
+
+ .development-content-part-01-description{
+   color: rgb(13, 19, 33);
+   font-family: Azeret Mono;
+   font-size: 13px;
+   font-weight: 400;
+   line-height: 26px;
+   letter-spacing: 0%;
+   text-align: left;
+   opacity: 0.7;
+
+margin-right: 150px;
+margin-top: 20px;
+ }
+ .development-content-part-01-btn{
+   color: rgb(13, 19, 33);
 font-family: Azeret Mono;
 font-size: 12px;
 font-weight: 600;
 line-height: 23px;
 letter-spacing: 0%;
 text-align: center;
-height: 50px;
-width: 150px;
-margin-left: 585px;
-}
-/* development-content-styles */
-.development-content{
-   border-radius: 16px;
-background: rgba(13, 19, 33, 0.02);
-height: 1395px;
-margin: 80px 150px;
+padding: 2px 14px;
+margin-top: 40px;
+box-sizing: border-box;
+border: 1px solid rgb(13, 19, 33);
+opacity: 0.7;
+
+ }
+ .development-content-part-01-text-formating{
+   margin: 40px;
+  
+ }
+ .development-content-part-01-image{
+   width: 240px;
+   height: 200px;
+padding-top: 55px;
+padding-bottom: 55px;
+
  
+ }
+ /* development-content-part-02-styles */
+ .development-content-part-02{
+   border-radius: 16px;
+background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+height: 320px;
+width: 950px;
+display: flex;
+padding-top: 48px;
+ }
+ .development-content-part-02-image{
+margin-left: 100px;
+ }
+ .development-content-part-02-tittle{
+   color: rgba(13, 19, 33, 0.7);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+margin-right: 150px;
+ }
+ .development-content-part-02-description{
+   color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 13px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+opacity: 0.7;
+margin-right: 210px;
+
+ }
+.development-content-part-02-btn{
+   box-sizing: border-box;
+border: 1px solid rgb(13, 19, 33);
+opacity: 0.7;
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 12px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+margin-top: 40px;
+padding: 2px 14px;
+}
+.development-content-part-02-text-formating{
+   margin-left: 60px;
+}
+/* development-content-part-03-styles */
+
+
+ .development-content-part-03{
+   border-radius: 16px;
+   background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+   height: 330px;
+  width: 990px;
+  margin-top: 48px;
+margin-left: 40px;
+display: flex;
+ }
+
+.development-content-part-03-tittle{
+   color: rgba(13, 19, 33, 0.7);
+   font-family: Azeret Mono;
+   font-size: 16px;
+   font-weight: 700;
+   line-height: 26px;
+   letter-spacing: 0%;
+   text-align: left;
+   margin-right: 350px;
+}
+.development-content-part-03-description{
+   color: rgb(13, 19, 33);
+   font-family: Azeret Mono;
+   font-size: 13px;
+   font-weight: 400;
+   line-height: 26px;
+   letter-spacing: 0%;
+   text-align: left;
+   opacity: 0.7;
+   margin-right: 260px; 
+}
+.development-content-part-03-btn{
+   box-sizing: border-box;
+   border: 1px solid rgb(13, 19, 33);
+   opacity: 0.7;
+   color: rgb(13, 19, 33);
+   font-family: Azeret Mono;
+   font-size: 12px;
+   font-weight: 600;
+   line-height: 23px;
+   letter-spacing: 0%;
+   text-align: center;
+   margin-top: 40px;
+   padding: 2px 14px;
+   margin-bottom: 25px; 
+}
+.development-content-part-03-text-formating{
+   margin-top: 40px;
+   padding-left: 40px;
 }
